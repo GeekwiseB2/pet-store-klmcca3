@@ -1,8 +1,17 @@
-
+.nav-pills>li{
+  padding-top: 45px;
+}
 .nav>li>a {
   font-family: 'Open Sans', sans-serif;
-
 }
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #F48166;
+  background-color: #eee;  
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -27,8 +36,10 @@
 
 .jumbotron h1 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight:300;
+  font-size: 48px;
   color:#FFF;
+  text-transform: uppercase;
 }
 
 .item{
@@ -106,5 +117,11 @@ footer img{
   footer img {
     padding-left: 20px;
   }
+
+}
+
+
+footer a {
+
 
 }
