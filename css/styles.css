@@ -9,7 +9,7 @@
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
   color: #F48166;
-  background-color: #eee;  
+  background-color: #eee;
 }
 
 .container-fluid {
@@ -108,20 +108,5 @@ footer img{
   .services {
     padding-bottom: 10px;
   }
-
-  .media,
-  .social {
-    text-align: center;
-  }
-
-  footer img {
-    padding-left: 20px;
-  }
-
-}
-
-
-footer a {
-
 
 }
